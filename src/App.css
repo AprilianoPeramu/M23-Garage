@@ -56,7 +56,7 @@ p{
     margin-left: 15px;
 }
 
-@media all and (min-width:321px) and (max-width: 480px) {
+@media all and (min-width:375px) and (max-width: 480px) {
     .page, .image, .slide{
         height: 200px;
         width: 320px;
