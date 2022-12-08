@@ -3,8 +3,24 @@ footer{
 }
 
 section{
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+
+.pic1{
+    margin-left: 70px;
+    width: 500px;
+    height: 500px;
+}
+
+.page0{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    width: 75%;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 a, li{
@@ -39,3 +55,17 @@ p{
     color: #000;
     margin-left: 15px;
 }
+
+@media all and (min-width:321px) and (max-width: 480px) {
+    .page, .image, .slide{
+        height: 200px;
+        width: 320px;
+        margin-left: 0px;
+    }
+
+    .pic1{
+        margin-left: 0px;
+        width: 400px;
+        height: 400px;
+    }
+  }
