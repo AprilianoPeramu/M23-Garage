@@ -58,14 +58,14 @@ p{
 
 @media all and (min-width:375px) and (max-width: 480px) {
     .page, .image, .slide{
-        height: 200px;
-        width: 320px;
+        height: 300px;
+        width: 300px;
         margin-left: 0px;
     }
 
     .pic1{
         margin-left: 0px;
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
     }
   }
