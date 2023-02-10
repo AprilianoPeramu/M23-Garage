@@ -29,11 +29,11 @@ const Home = () => {
                         </a>
                     </div>
                     <div className="col-2 tool" >
-                        <a href='#'><img src="https://cdn.icon-icons.com/icons2/2621/PNG/512/gui_discount_icon_157170.png" alt="tools"  width='48px'/>
+                        <a href='#'><img src="https://cdn.icon-icons.com/icons2/943/PNG/96/shoppaymentorderbuy-09_icon-icons.com_73854.png" alt="tools"  width='48px'/>
                         </a>
                     </div>
                     <div className="col-2 tool">
-                        <a href='#'><img src="https://cdn.icon-icons.com/icons2/514/PNG/512/new_icon-icons.com_51017.png" alt="tools"  width='48px'/>
+                        <a href='#'><img src="https://cdn.icon-icons.com/icons2/577/PNG/256/Wheel_icon-icons.com_54891.png" alt="tools"  width='48px'/>
                         </a>
                     </div>
                     <div className="col-2 tool">
