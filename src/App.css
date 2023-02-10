@@ -1,5 +1,5 @@
 footer{
-    background-color: #198754;
+    background-color: #0d6efd;
 }
 
 section{
@@ -7,11 +7,13 @@ section{
     padding-bottom: 30px;
 }
 
-.pic1{
-    margin-left: 70px;
-    width: 500px;
-    height: 500px;
+.tool{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
 }
+
 
 .page0{
     margin-left: auto;
@@ -21,6 +23,19 @@ section{
     width: 75%;
     margin-top: 50px;
     margin-bottom: 0px;
+}
+
+.pages{
+    background-color: #0d6efd;
+}
+
+.btn-page{
+    background-color: #0d6efd;
+     border-radius: 10px;
+}
+
+.btn-page:hover{
+    background-color: #0d6efd;
 }
 
 a, li{
@@ -62,10 +77,11 @@ p{
         width: 320px;
         margin-left: 0px;
     }
-
-    .pic1{
-        margin-left: 0px;
-        width: 400px;
-        height: 400px;
+    .tool{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        margin: 10px;
     }
   }

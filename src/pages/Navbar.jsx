@@ -32,7 +32,7 @@ const Navbar = () => {
               <Link className='page' to='/contact'>Contact</Link>
               </li>
             </ul>
-            <button className="btn btn-success mt-2"><Link className='logo-title' to="/login">Login</Link></button>
+            <button className="btn button-nav mt-2"><Link className='logo-title' to="/login">Login</Link></button>
           </div>
         </div>
       </nav>

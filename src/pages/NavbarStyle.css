@@ -9,10 +9,20 @@
     color: #fff;
 }
 
+.button-nav{
+  background-color: #0d6efd;
+  border-radius: 10px;
+}
+
+
+.button-nav:hover{
+  background-color: #0d6efd;
+}
+
 .page:hover{
     color: #000;
     text-decoration: none;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .page {
@@ -27,7 +37,7 @@
     width: 100%;
     height: 4px;
     border-radius: 4px;
-    background-color: #198754;
+    background-color: #0d6efd;
     bottom: 0;
     left: 0;
     transform-origin: right;
@@ -38,7 +48,7 @@
   .page:hover::before {
     transform-origin: left;
     transform: scaleX(1);
-    margin-top: 5px;
+    margin-top: 20px;
   }
 
   .logo-title{
