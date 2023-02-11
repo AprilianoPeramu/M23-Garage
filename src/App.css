@@ -8,6 +8,10 @@ section{
     overflow: hidden;
 }
 
+.span{
+    color: #0d6efd;
+}
+
 .tool{
     display: flex;
     align-items: center;

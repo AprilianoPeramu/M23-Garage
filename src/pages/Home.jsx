@@ -8,11 +8,11 @@ const Home = () => {
     return (
         <div>
             <Navbar />
-            <section id="page1">
+            <section id="page1" className='m-2'>
                 <div className='container'>
                     <div className="row de-flex align-items-center mt-4">
                         <div className="col-md-6 mt-2 mb-2">
-                            <h1>Our Garage</h1>
+                            <h1><span className='span'>Our</span> Cars</h1>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore magnam inventore doloremque quas aut illum!</p>
                             <button className="btn btn-page mt-2"><a href='#' className='logo-title'>Buy Some?</a></button>
                         </div>
@@ -46,14 +46,14 @@ const Home = () => {
                     </div >
                 </div>
             </section>
-            <section id='page2' className='m-2'>
+            <section id='page2'>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-6 mt-2 mb-2">
                             <img src='https://images.pexels.com/photos/1719648/pexels-photo-1719648.jpeg?auto=compress&cs=tinysrgb&w=600' alt="page2" className="img-fluid" />
                         </div>
                         <div className="col-md-6 text-end mt-4 mb-4">
-                            <h1>Who We Are?</h1>
+                            <h1>Who <span className='span'>We</span> Are?</h1>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt consequatur, consequuntur aperiam delectus consectetur ab temporibus laboriosam laudantium enim quibusdam?</p>
                             <button className="btn btn-page mt-2"><a href='#' className='logo-title'>Join With Us!</a></button>
                         </div>
