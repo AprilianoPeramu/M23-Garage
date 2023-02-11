@@ -1,6 +1,11 @@
 import React from 'react'
 import Navbar from '../pages/Navbar';
 import Carousel from 'react-bootstrap/Carousel';
+import Tool from '../assets/tools.png'
+import Discount from '../assets/discount.png'
+import Ban from '../assets/ban.png'
+import Car from '../assets/car.png'
+import Oil from '../assets/oil.png'
 
 
 
@@ -25,23 +30,23 @@ const Home = () => {
             <section className="pages">
                 <div className="row d-flex justify-content-center">
                     <div className="col-2 tool">
-                        <a href='#'><img src="https://cdn.icon-icons.com/icons2/1808/PNG/512/tools_115098.png" alt="tools"  width='44px'/>
+                        <a href='#'><img src={Tool} alt="tools"  width='48px'/>
                         </a>
                     </div>
                     <div className="col-2 tool" >
-                        <a href='#'><img src="https://cdn.icon-icons.com/icons2/943/PNG/96/shoppaymentorderbuy-09_icon-icons.com_73854.png" alt="tools"  width='48px'/>
+                        <a href='#'><img src={Discount} alt="tools"  width='48px'/>
                         </a>
                     </div>
                     <div className="col-2 tool">
-                        <a href='#'><img src="https://cdn.icon-icons.com/icons2/577/PNG/256/Wheel_icon-icons.com_54891.png" alt="tools"  width='48px'/>
+                        <a href='#'><img src={Ban} alt="tools"  width='48px'/>
                         </a>
                     </div>
                     <div className="col-2 tool">
-                        <a href='#'><img src="https://cdn.icon-icons.com/icons2/1363/PNG/512/travel-holiday-vacation-303_89062.png" alt="tools"  width='48px'/>
+                        <a href='#'><img src={Car} alt="tools"  width='48px'/>
                         </a>
                     </div>
                     <div className="col-2 tool">
-                        <a href='#'><img src="https://cdn.icon-icons.com/icons2/94/PNG/512/oil_delivery_16807.png" alt="tools"  width='48px'/>
+                        <a href='#'><img src={Oil} alt="tools"  width='48px'/>
                         </a>
                     </div >
                 </div>

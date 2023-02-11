@@ -2,10 +2,10 @@ import React from 'react'
 import Logo from '../assets/logo.png'
 import '../pages/NavbarStyle.css'
 import About from './About';
-import Service from './Service';
 import Contact from './Contact';
 import Login from './Login';
 import { Link, Routes, Route } from 'react-router-dom'
+import Product from './Product';
 
 const Navbar = () => {
   return (
@@ -23,10 +23,10 @@ const Navbar = () => {
               <Link className='page mt-2 mb-2' to='/'>Home</Link>
               </li>
               <li className="nav-item m-2">
-              <Link className='page' to='/about'>About</Link>
+              <Link className='page' to='/about'>Product</Link>
               </li>
               <li className="nav-item m-2">
-              <Link className='page' to='/service'>Service</Link>
+              <Link className='page' to='/service'>About</Link>
               </li>
               <li className="nav-item m-2">
               <Link className='page' to='/contact'>Contact</Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
     </div>
     <Routes>
         <Route path='/about' element={<About />} />
-        <Route path='/service' element={<Service />} />
+        <Route path='/product' element={<Product />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/login' element={<Login/>} />
     </Routes>

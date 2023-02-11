@@ -12,6 +12,7 @@ section{
     color: #0d6efd;
 }
 
+
 .tool{
     display: flex;
     align-items: center;
@@ -19,6 +20,9 @@ section{
     width: 200px;
 }
 
+.page1{
+    margin-top: 10px;
+}
 
 .page0{
     margin-left: auto;
