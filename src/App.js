@@ -5,6 +5,7 @@ import About from './pages/About';
 import Service from './pages/Service';
 import Contact from './pages/Contact';
 import Login from './pages/Login';
+// import Navbar from './pages/Navbar';
 import {Route, Routes} from 'react-router-dom';
 
 function App() {

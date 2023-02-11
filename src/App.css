@@ -5,6 +5,7 @@ footer{
 section{
     padding-top: 55px;
     padding-bottom: 30px;
+    overflow: hidden;
 }
 
 .tool{
