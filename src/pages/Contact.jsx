@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../pages/Navbar';
+import Footer from './Footer';
 
 const Contact = () => {
   return (
@@ -7,6 +8,7 @@ const Contact = () => {
     <Navbar/>
     
       Contact
+      <Footer/>
     </div>
   )
 }

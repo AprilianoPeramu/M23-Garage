@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../pages/Navbar';
+import Footer from './Footer';
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
     <Navbar/>
         
         About
-
+    <Footer/>
     </div>
   )
 }

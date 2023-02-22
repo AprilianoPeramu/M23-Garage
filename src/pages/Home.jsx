@@ -6,6 +6,7 @@ import Discount from '../assets/discount.png'
 import Ban from '../assets/ban.png'
 import Car from '../assets/car.png'
 import Oil from '../assets/oil.png'
+import Footer from './Footer';
 
 
 
@@ -13,7 +14,7 @@ const Home = () => {
     return (
         <div>
             <Navbar />
-            <section id="page1" className='m-2'>
+            <section id="page1" className='page1'>
                 <div className='container'>
                     <div className="row de-flex align-items-center mt-4">
                         <div className="col-md-6 mt-2 mb-2">
@@ -54,7 +55,7 @@ const Home = () => {
             <section id='page2'>
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-6 mt-2 mb-2">
+                        <div className="col-md-6 mt-1 mb-1">
                             <img src='https://images.pexels.com/photos/1719648/pexels-photo-1719648.jpeg?auto=compress&cs=tinysrgb&w=600' alt="page2" className="img-fluid" />
                         </div>
                         <div className="col-md-6 text-end mt-4 mb-4">
@@ -65,6 +66,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <Footer/>
         </div>
     )
 };
